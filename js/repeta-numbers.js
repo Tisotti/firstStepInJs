@@ -35,7 +35,7 @@
 
 // let salary = 1300.16472;
 // salary = salary.toFixed(2);
-// 
+
 // console.log(salary);
 
 
@@ -47,8 +47,46 @@
 // --------------------------------------------------
 // привести строку в число
 
-// строку
-console.log(Number(false));
-console.log(Number(true));
-console.log(Number(5));
-console.log(Number('edfqef'));
+
+// console.log(Number(false));
+// console.log(Number(true));
+// console.log(Number(5));
+// console.log(Number('edfqef'));
+// console.log(Number(6 / 0));
+// console.log(6 / 0);
+
+// -----------------------------------------------------
+// возведение в степень
+
+
+// const base = 2;
+// const power = 5;
+// 
+// const result = Math.pow(base, power);
+// 
+// console.log(result);
+
+
+// аналог 
+
+
+// console.log(base ** power);
+
+
+// --------------------------------------------------------
+
+// напиши скрипт который просит пользователя ввести число и степень
+// возводит его в степень с выводит результат в консоль
+
+
+// 1попросить ввести число  и сохранить в переменную 
+let base = prompt('Давай число');
+// prompt возвращает строку. поэтому наше число будет строкой поэтому надо его преобразовать в число
+base = Number(base);
+
+console.log(base);
+// 2 попросить ввести в степень и сохранить в переменную 
+// 3 возвести введенные данные в степень и вывести 
+
+
+
